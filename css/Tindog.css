@@ -1,0 +1,236 @@
+/* Title Section */
+#title{
+    background-color:#ff4c68;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* Container Fluid Section */
+.container-fluid{
+    padding-bottom: 30px;
+}
+
+.titlesentense{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+
+/* Navbar Section in the title section */
+.navbar-collapse{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-brand{
+    font-family: 'Qahiri', sans-serif;
+    font-size: 3rem;
+}
+
+
+.nav-items{
+    padding-left: 10px;
+}
+ 
+
+.navbar{
+    padding-bottom: 40px;
+    padding-left: 0%;      
+}
+
+ .download-button{
+     margin-top: 25px;
+     margin-right: 20px;
+ }
+
+.iphone-img{
+    width: 57%;
+    transform: rotate(26deg);
+    margin-left: 80px;
+    position: absolute;
+}
+
+/* this is for smartphone view */
+@media (max-width:991px)
+{
+    /* this is to change the positon and make it simple as previous in only samartphone mode */
+    .iphone-img
+    {
+        position: static;
+        transform: rotate(0);
+        margin-right: 200px;
+    }
+
+    
+    #title
+    {
+        text-align: center;
+    }
+}
+/* CONTAINDER FLUID SECTION ENDS HEAR*/
+
+/* Feature Section */
+#features{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background-color:#fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+.feature-prara{
+    color: #8f8f8f;
+}
+
+.feature-h3{
+    font-weight: bold;
+}
+
+.icons  {
+    color: red;
+    max-width: 20px;
+    padding-right: 50px;
+    margin-bottom: 5px;
+}
+
+
+.icons:hover{
+    color: #810000;
+}
+
+/* FEATURES SECTION END HEAR */
+
+/* Testomonial section */
+#testimonials{
+    text-align: center;
+    background-color: #D54C4C;
+    color: #fff;
+}
+
+/* this is for to alligned buttons some outside of that div */
+.carousel-item{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.testomonial-h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.dogimg-testomonial{
+    width: 20%;
+    border-radius: 100%;
+    margin-left: 40px;
+    padding-top: 5%;  
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.testomonial-em{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+/* TESTOMONIAL SECITON END HEAR */
+
+/* Press section */
+#press{
+    background-color: #D54C4C;
+    text-align: center;
+}
+
+.press-image{
+    width: 20%;
+    padding: 3%;
+}
+
+/* PRESS SECTION END HEAR */
+
+/* Pricing Secction */
+#pricing{
+    padding: 30px;
+    text-align: center;
+}
+
+.pricing-h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pricing-h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.first-card{
+    height: 375px;
+}
+
+/* this is for to make button also need to alligned self */
+.first-card-btn{
+    margin-top: 57px;
+}
+
+.second-card{
+    height: 375px;
+}
+
+.second-card-btn{
+    margin-top: 57px;
+    
+}
+
+/* PRICING SECTION ENDS HEAR */
+
+
+/*  CTA section */
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.h3-cta
+{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* CTA SECTION ENDS HEAR */
+
+/* Footer section */
+#footer
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: gray;
+    background-color: #fff;
+}
+
+.footer-btn
+{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color:black;
+}
+/* FOOTER SECTION ENDS HEAR */
+
